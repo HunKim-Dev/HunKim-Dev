@@ -10,7 +10,7 @@
 
 #### More about me
 - React · Next.js 기반의 웹 서비스을 중심으로 개발하고 있으며 3D 인터랙션(R3F)에도 도전하고 있습니다.
-- My work focuses on building web services with React and Next.js, and I am also exploring 3D interactions using React Three Fiber (R3F).
+
 
 ---
 
