@@ -1,12 +1,11 @@
 ## HunKim
 
 - 스스로 배우고 실행으로 증명하는 태도로 개발을 시작했으며, 주어진 문제를 끝까지 책임지고 해결하려 노력합니다.
--  I began learning development by taking initiative and proving my progress through action, and I strive to take full responsibility for solving the problems I am given.
 
 <br />
 
 - 팀에서는 문제의 원인과 방향성을 함께 공유하며, 의견 차이를 조율해 공통된 해답을 만들어가는 협업 방식을 중요하게 생각합니다.
-- Within a team, I value sharing the root cause and direction of a problem, coordinating differing opinions, and working toward a solution that everyone can agree on.
+
 
 
 #### More about me
@@ -51,12 +50,10 @@
 
 #### 2025
 
-#### **[MotionBricks](https://github.com/HunKim-Dev/MotionBricks/tree/develop)**
+#### **[MotionBricks 레포지토리](https://github.com/HunKim-Dev/MotionBricks/tree/develop)**
 - 웹에서 손 제스처로 브릭을 집고 조립할 수 있는 3D 레고 시뮬레이터
-- A 3D LEGO simulator that lets users pick up and assemble bricks using hand gestures on the web
 
-#### **[Desker AI](https://github.com/HunKim-Dev/Desker-AI/tree/develop)**
+#### **[Desker AI 레포지토리](https://github.com/HunKim-Dev/Desker-AI/tree/develop)**
 - 스크립트 한 줄로 홈페이지에 설치하는 소상공인용 AI 안내원 챗봇  
-- An AI assistant chatbot for small businesses that can be installed on any website with a single script
 
 ---
