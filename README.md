@@ -5,14 +5,14 @@
 
 
 #### More about me
-- React · Next.js 기반의 웹 서비스을 중심으로 개발하고 있으며 3D 인터랙션(R3F)에도 도전하고 있습니다.
+- React, Next.js 기반의 웹 서비스을 중심으로 개발하고 있으며 3D 인터랙션(R3F)에도 도전하고 있습니다.
 
 
 ---
 
-### Tools and Skills
+### 스킬
 
-#### Frontend
+#### 프론트엔드
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=000)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=fff)
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=000)
@@ -25,7 +25,7 @@
 ![Zustand](https://img.shields.io/badge/Zustand-7856FF?style=flat-square&logo=zustand&logoColor=fff)
 &nbsp;
 
-#### Backend
+#### 백엔드
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=fff)
 ![Auth.js](https://img.shields.io/badge/Auth.js-0A0A0A?style=flat-square&logo=auth0&logoColor=white)
 ![Google OAuth](https://img.shields.io/badge/Google%20OAuth-4285F4?style=flat-square&logo=google&logoColor=white)
@@ -35,14 +35,14 @@
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 &nbsp;
 
-#### Tools  
+#### 도구
 ![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=flat-square&logo=eslint&logoColor=fff)
 ![Prettier](https://img.shields.io/badge/Prettier-F7B93E?style=flat-square&logo=prettier&logoColor=000)
 &nbsp;
 
 ---
 
-### Projects
+### 프로젝트
 
 #### 2025
 
