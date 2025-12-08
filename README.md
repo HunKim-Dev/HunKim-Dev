@@ -46,7 +46,7 @@
 
 #### 2025
 
-#### **[MotionBricks 레포지토리](https://github.com/HunKim-Dev/MotionBricks/tree/develop)**
+#### **[MotionBricks 레포지토리](https://github.com/HunKim-Dev/MotionBricks/tree/develop)** | **[MotionBricks 배포 주소](https://motion-bricks.vercel.app)**
 - 웹에서 손 제스처로 브릭을 집고 조립할 수 있는 3D 레고 시뮬레이터
 
 #### **[Desker AI 레포지토리](https://github.com/HunKim-Dev/Desker-AI/tree/develop)**
