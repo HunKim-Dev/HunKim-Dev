@@ -1,4 +1,4 @@
-![header](./assets/header.svg)
+![header](./assets/night-banner.svg)
 
 ### 안녕하세요, 개발자 김태헌입니다
 
