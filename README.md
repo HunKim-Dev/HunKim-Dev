@@ -1,13 +1,13 @@
-![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=180&text=HunKim&fontAlignY=35&fontSize=54&fontColor=ffffff&animation=fadeIn&desc=Web%20Developer&descAlignY=55&descSize=18)
+![header](https://capsule-render.vercel.app/api?type=waving&color=0:8B5CF6,20:3B82F6,40:22C55E,60:FDE047,80:FB923C,100:EF4444&height=180&text=Taehun%20Kim&fontAlignY=35&fontSize=54&fontColor=ffffff&animation=fadeIn&desc=Product%20Developer&descAlignY=55&descSize=18)
 
-### 안녕하세요, 웹 개발자 HunKim입니다 👋
+### 안녕하세요, 개발자 김태헌입니다
 
-**React · Next.js 기반 웹 서비스**를 중심으로 개발하며, **3D 인터랙션(R3F)**과 **AI 제품**의 영역으로 확장해 나가고 있습니다.
+React와 Next.js 기반 웹 서비스를 중심으로 개발하고 있고, 3D 인터랙션(R3F)과 AI 제품으로 영역을 넓혀가는 중입니다.
 
-- 🧱 웹캠 손 제스처로 브릭을 집고 조립하는 3D 레고 시뮬레이터 **MotionBricks**를 만들었습니다.
-- 🤖 RAG 기반 AI 안내원 챗봇, 마크업 자동화 **Claude Code 스킬**을 만들며 AI 활용 개발에 집중하고 있습니다.
-- 🚀 스스로 배우고 **실행으로 증명**하는 태도로 개발을 시작했으며, 주어진 문제를 끝까지 책임지고 해결하려 노력합니다.
-- 🤝 문제의 원인과 방향성을 팀과 함께 공유하며, 의견 차이를 조율해 공통된 해답을 만들어가는 협업 방식을 중요하게 생각합니다.
+- 웹캠 손 제스처로 브릭을 집고 조립하는 3D 레고 시뮬레이터 MotionBricks를 만들었습니다.
+- RAG 기반 AI 안내원 챗봇과 마크업 자동화를 위한 Claude Code 스킬을 만들면서, AI를 활용한 개발에 집중하고 있습니다.
+- 스스로 배우고 실행으로 증명하는 태도로 개발을 시작했고, 주어진 문제는 끝까지 책임지고 해결하려고 합니다.
+- 팀에서는 문제의 원인과 방향을 함께 공유하고, 의견 차이를 조율해 공통된 해답을 만들어가는 과정을 중요하게 생각합니다.
 
 
 ---
@@ -49,6 +49,7 @@
 ![Pinecone](https://img.shields.io/badge/Pinecone-121212?style=flat-square)
 ![Claude Code](https://img.shields.io/badge/Claude%20Code-D97757?style=flat-square&logo=claude&logoColor=white)
 ![OpenAI GPT](https://img.shields.io/badge/OpenAI%20GPT-412991?style=flat-square&logo=openai&logoColor=white)
+![Codex](https://img.shields.io/badge/Codex-000000?style=flat-square&logo=openai&logoColor=white)
 ![Hermes](https://img.shields.io/badge/Hermes-4B3F72?style=flat-square)
 &nbsp;
 
@@ -64,6 +65,9 @@
 ### 프로젝트
 
 #### 2026
+
+#### **[댕로드 레포지토리](https://github.com/After-Daeng-Road/After-Daeng-Road)** `2026.04 ~ 진행 중`
+- 한국관광콘텐츠랩 공모 본선 프러덕트 — 퇴근 후 반려견과 다녀올 수 있는 한적한 근교 외출지를 시간 기준으로 추천하는 서비스 (팀 프로젝트)
 
 #### **[Markup-agent 레포지토리](https://github.com/HunKim-Dev/Markup-agent)** | **[발표 자료](https://hunkim-dev.github.io/mark-up-agent-presentation/)** `2026.03 ~ 2026.08`
 - 스펙과 디자인 파일을 프로덕션 품질 마크업으로 변환하는 Claude Code 스킬 (8단계 파이프라인, 3중 품질 게이트)
