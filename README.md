@@ -1,11 +1,13 @@
-## HunKim
+![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=180&text=HunKim&fontAlignY=35&fontSize=54&fontColor=ffffff&animation=fadeIn&desc=Web%20Developer&descAlignY=55&descSize=18)
 
-- 스스로 배우고 실행으로 증명하는 태도로 개발을 시작했으며, 주어진 문제를 끝까지 책임지고 해결하려 노력합니다.
-- 팀에서는 문제의 원인과 방향성을 함께 공유하며, 의견 차이를 조율해 공통된 해답을 만들어가는 협업 방식을 중요하게 생각합니다.
+### 안녕하세요, 웹 개발자 HunKim입니다 👋
 
+**React · Next.js 기반 웹 서비스**를 중심으로 개발하며, **3D 인터랙션(R3F)**과 **AI 제품**의 영역으로 확장해 나가고 있습니다.
 
-#### More about me
-- React, Next.js 기반의 웹 서비스를 중심으로 개발하고 있으며 3D 인터랙션(R3F)에도 도전하고 있습니다.
+- 🧱 웹캠 손 제스처로 브릭을 집고 조립하는 3D 레고 시뮬레이터 **MotionBricks**를 만들었습니다.
+- 🤖 RAG 기반 AI 안내원 챗봇, 마크업 자동화 **Claude Code 스킬**을 만들며 AI 활용 개발에 집중하고 있습니다.
+- 🚀 스스로 배우고 **실행으로 증명**하는 태도로 개발을 시작했으며, 주어진 문제를 끝까지 책임지고 해결하려 노력합니다.
+- 🤝 문제의 원인과 방향성을 팀과 함께 공유하며, 의견 차이를 조율해 공통된 해답을 만들어가는 협업 방식을 중요하게 생각합니다.
 
 
 ---
@@ -29,6 +31,7 @@
 
 #### 백엔드
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=fff)
+![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white)
 ![Auth.js](https://img.shields.io/badge/Auth.js-0A0A0A?style=flat-square)
 ![Google OAuth](https://img.shields.io/badge/Google%20OAuth-4285F4?style=flat-square&logo=google&logoColor=white)
 ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
@@ -45,6 +48,8 @@
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
 ![Pinecone](https://img.shields.io/badge/Pinecone-121212?style=flat-square)
 ![Claude Code](https://img.shields.io/badge/Claude%20Code-D97757?style=flat-square&logo=claude&logoColor=white)
+![OpenAI GPT](https://img.shields.io/badge/OpenAI%20GPT-412991?style=flat-square&logo=openai&logoColor=white)
+![Hermes](https://img.shields.io/badge/Hermes-4B3F72?style=flat-square)
 &nbsp;
 
 #### 도구
