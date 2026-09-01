@@ -65,7 +65,7 @@
         100% { transform: translateX(-250px); }
       }
       .title { font: 700 52px 'Segoe UI', 'Apple SD Gothic Neo', Helvetica, Arial, sans-serif; fill: #F5F7FF; }
-      .subtitle { font: 400 19px 'Segoe UI', 'Apple SD Gothic Neo', Helvetica, Arial, sans-serif; fill: #D6E0FA; letter-spacing: 4px; }
+      .subtitle { font: 400 19px 'Segoe UI', 'Apple SD Gothic Neo', Helvetica, Arial, sans-serif; fill: #F0F4FF; letter-spacing: 4px; }
     </style>
   </defs>
 
