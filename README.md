@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=waving&color=0:8B5CF6,20:3B82F6,40:22C55E,60:FDE047,80:FB923C,100:EF4444&height=180&text=Taehun%20Kim&fontAlignY=35&fontSize=54&fontColor=ffffff&animation=fadeIn&desc=Product%20Developer&descAlignY=55&descSize=18)
+![header](https://capsule-render.vercel.app/api?type=waving&color=0:C4B5FD,20:93C5FD,40:86EFAC,60:FEF08A,80:FDBA74,100:FCA5A5&height=180&text=Taehun%20Kim&fontAlignY=35&fontSize=54&fontColor=ffffff&animation=fadeIn&desc=Product%20Developer&descAlignY=55&descSize=18)
 
 ### 안녕하세요, 개발자 김태헌입니다
 
