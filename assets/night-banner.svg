@@ -18,7 +18,7 @@
       <stop offset="0" stop-color="#3D4F92" stop-opacity="0.65"/>
       <stop offset="1" stop-color="#3D4F92" stop-opacity="0"/>
     </linearGradient>
-    <linearGradient id="waveFade3" x1="0" y1="296" x2="0" y2="330" gradientUnits="userSpaceOnUse">
+    <linearGradient id="waveFade3" x1="0" y1="294" x2="0" y2="324" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#5A6BB0" stop-opacity="0.45"/>
       <stop offset="1" stop-color="#5A6BB0" stop-opacity="0"/>
     </linearGradient>
@@ -121,7 +121,7 @@
   <path class="waveShift3" fill="url(#waveFade2)" d="M-500 298
     Q-437.5 282 -375 298 T-250 298 T-125 298 T0 298 T125 298 T250 298 T375 298 T500 298 T625 298 T750 298 T875 298 T1000 298 T1125 298 T1250 298 T1375 298 T1500 298
     V330 H-500 Z"/>
-  <path class="waveShift4" fill="url(#waveFade3)" d="M-500 310
-    Q-437.5 296 -375 310 T-250 310 T-125 310 T0 310 T125 310 T250 310 T375 310 T500 310 T625 310 T750 310 T875 310 T1000 310 T1125 310 T1250 310 T1375 310 T1500 310
+  <path class="waveShift4" fill="url(#waveFade3)" d="M-500 308
+    Q-437.5 322 -375 308 T-250 308 T-125 308 T0 308 T125 308 T250 308 T375 308 T500 308 T625 308 T750 308 T875 308 T1000 308 T1125 308 T1250 308 T1375 308 T1500 308
     V330 H-500 Z"/>
 </svg>
