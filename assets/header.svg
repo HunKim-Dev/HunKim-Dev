@@ -3,7 +3,7 @@
     <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#04060E"/>
       <stop offset="60%" stop-color="#0A0F24"/>
-      <stop offset="100%" stop-color="#121A38"/>
+      <stop offset="100%" stop-color="#16204A"/>
     </linearGradient>
     <radialGradient id="moonGlow" cx="50%" cy="50%" r="50%">
       <stop offset="0%" stop-color="#FFF7D6" stop-opacity="0.4"/>
@@ -14,6 +14,10 @@
       <circle cx="845" cy="72" r="30" fill="#fff"/>
       <circle cx="831" cy="62" r="28" fill="#000"/>
     </mask>
+    <clipPath id="waveEdge">
+      <path class="waveShift" d="M-500 -10 H1500 V210
+        Q1437.5 190 1375 210 T1250 210 T1125 210 T1000 210 T875 210 T750 210 T625 210 T500 210 T375 210 T250 210 T125 210 T0 210 T-125 210 T-250 210 T-375 210 T-500 210 Z"/>
+    </clipPath>
     <style>
       .star { fill: #FFFFFF; }
       .tw1 { animation: twinkle 2.4s ease-in-out infinite; }
@@ -40,61 +44,54 @@
         16% { transform: translate(-280px, 100px); opacity: 0; }
         100% { transform: translate(-280px, 100px); opacity: 0; }
       }
-      .wave { animation: waveMove 9s linear infinite; }
-      .wave2 { animation: waveMove 14s linear infinite reverse; }
+      .waveShift { animation: waveMove 10s linear infinite; }
       @keyframes waveMove {
         0% { transform: translateX(0); }
-        100% { transform: translateX(-500px); }
+        100% { transform: translateX(-250px); }
       }
       .title { font: 700 52px 'Segoe UI', 'Apple SD Gothic Neo', Helvetica, Arial, sans-serif; fill: #F5F7FF; }
       .subtitle { font: 400 19px 'Segoe UI', 'Apple SD Gothic Neo', Helvetica, Arial, sans-serif; fill: #93A5D6; letter-spacing: 4px; }
     </style>
   </defs>
 
-  <rect width="1000" height="240" fill="url(#sky)"/>
+  <g clip-path="url(#waveEdge)">
+    <rect width="1000" height="240" fill="url(#sky)"/>
 
-  <!-- moon -->
-  <circle cx="845" cy="72" r="68" fill="url(#moonGlow)"/>
-  <circle cx="845" cy="72" r="30" fill="#FFF3C4" mask="url(#crescent)"/>
+    <!-- moon -->
+    <circle cx="845" cy="72" r="68" fill="url(#moonGlow)"/>
+    <circle cx="845" cy="72" r="30" fill="#FFF3C4" mask="url(#crescent)"/>
 
-  <!-- stars -->
-  <g>
-    <circle class="star tw1" cx="80"  cy="40"  r="1.8"/>
-    <circle class="star tw3" cx="150" cy="120" r="1.3"/>
-    <circle class="star tw2" cx="215" cy="60"  r="2.0"/>
-    <circle class="star tw4" cx="300" cy="150" r="1.2"/>
-    <circle class="star tw1" cx="345" cy="35"  r="1.5"/>
-    <circle class="star tw3" cx="430" cy="90"  r="1.9"/>
-    <circle class="star tw2" cx="520" cy="45"  r="1.4"/>
-    <circle class="star tw4" cx="565" cy="140" r="1.7"/>
-    <circle class="star tw1" cx="640" cy="70"  r="1.3"/>
-    <circle class="star tw3" cx="705" cy="160" r="1.6"/>
-    <circle class="star tw2" cx="742" cy="30"  r="1.4"/>
-    <circle class="star tw4" cx="930" cy="150" r="1.8"/>
-    <circle class="star tw1" cx="960" cy="55"  r="1.3"/>
-    <circle class="star tw2" cx="55"  cy="165" r="1.4"/>
-    <circle class="star tw3" cx="255" cy="185" r="1.2"/>
-    <circle class="star tw4" cx="480" cy="175" r="1.5"/>
-    <circle class="star tw2" cx="880" cy="185" r="1.3"/>
-    <!-- four-point sparkle stars -->
-    <path class="star tw2" d="M120 85 l2.2 6 6 2.2 -6 2.2 -2.2 6 -2.2 -6 -6 -2.2 6 -2.2 z"/>
-    <path class="star tw4" d="M600 100 l2 5.4 5.4 2 -5.4 2 -2 5.4 -2 -5.4 -5.4 -2 5.4 -2 z"/>
-    <path class="star tw1" d="M395 155 l1.8 5 5 1.8 -5 1.8 -1.8 5 -1.8 -5 -5 -1.8 5 -1.8 z"/>
+    <!-- stars -->
+    <g>
+      <circle class="star tw1" cx="80"  cy="40"  r="1.8"/>
+      <circle class="star tw3" cx="150" cy="120" r="1.3"/>
+      <circle class="star tw2" cx="215" cy="60"  r="2.0"/>
+      <circle class="star tw4" cx="300" cy="150" r="1.2"/>
+      <circle class="star tw1" cx="345" cy="35"  r="1.5"/>
+      <circle class="star tw3" cx="430" cy="90"  r="1.9"/>
+      <circle class="star tw2" cx="520" cy="45"  r="1.4"/>
+      <circle class="star tw4" cx="565" cy="140" r="1.7"/>
+      <circle class="star tw1" cx="640" cy="70"  r="1.3"/>
+      <circle class="star tw3" cx="705" cy="160" r="1.6"/>
+      <circle class="star tw2" cx="742" cy="30"  r="1.4"/>
+      <circle class="star tw4" cx="930" cy="150" r="1.8"/>
+      <circle class="star tw1" cx="960" cy="55"  r="1.3"/>
+      <circle class="star tw2" cx="55"  cy="165" r="1.4"/>
+      <circle class="star tw3" cx="255" cy="180" r="1.2"/>
+      <circle class="star tw4" cx="480" cy="175" r="1.5"/>
+      <circle class="star tw2" cx="880" cy="180" r="1.3"/>
+      <!-- four-point sparkle stars -->
+      <path class="star tw2" d="M120 85 l2.2 6 6 2.2 -6 2.2 -2.2 6 -2.2 -6 -6 -2.2 6 -2.2 z"/>
+      <path class="star tw4" d="M600 100 l2 5.4 5.4 2 -5.4 2 -2 5.4 -2 -5.4 -5.4 -2 5.4 -2 z"/>
+      <path class="star tw1" d="M395 155 l1.8 5 5 1.8 -5 1.8 -1.8 5 -1.8 -5 -5 -1.8 5 -1.8 z"/>
+    </g>
+
+    <!-- shooting stars -->
+    <line class="shoot"  x1="700" y1="20" x2="740" y2="6"/>
+    <line class="shoot2" x1="380" y1="15" x2="416" y2="2"/>
+
+    <!-- text -->
+    <text class="title" x="70" y="128">Taehun Kim</text>
+    <text class="subtitle" x="72" y="165">PRODUCT DEVELOPER</text>
   </g>
-
-  <!-- shooting stars -->
-  <line class="shoot"  x1="700" y1="20" x2="740" y2="6"/>
-  <line class="shoot2" x1="380" y1="15" x2="416" y2="2"/>
-
-  <!-- waves -->
-  <g class="wave2" opacity="0.35">
-    <path fill="#2A3B6E" d="M0 214 Q62 200 125 214 T250 214 T375 214 T500 214 T625 214 T750 214 T875 214 T1000 214 T1125 214 T1250 214 T1375 214 T1500 214 V240 H0 Z"/>
-  </g>
-  <g class="wave" opacity="0.85">
-    <path fill="#1E2C56" d="M0 222 Q62 210 125 222 T250 222 T375 222 T500 222 T625 222 T750 222 T875 222 T1000 222 T1125 222 T1250 222 T1375 222 T1500 222 V240 H0 Z"/>
-  </g>
-
-  <!-- text -->
-  <text class="title" x="70" y="128">Taehun Kim</text>
-  <text class="subtitle" x="72" y="165">PRODUCT DEVELOPER</text>
 </svg>
