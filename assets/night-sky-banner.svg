@@ -10,12 +10,12 @@
       <stop offset="60%" stop-color="#FFF7D6" stop-opacity="0.1"/>
       <stop offset="100%" stop-color="#FFF7D6" stop-opacity="0"/>
     </radialGradient>
-    <linearGradient id="waveFade1" x1="0" y1="265" x2="0" y2="326" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#26356B" stop-opacity="0.9"/>
+    <linearGradient id="waveFade1" x1="0" y1="250" x2="0" y2="322" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#26356B" stop-opacity="0.95"/>
       <stop offset="1" stop-color="#26356B" stop-opacity="0"/>
     </linearGradient>
-    <linearGradient id="waveFade2" x1="0" y1="282" x2="0" y2="330" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#3D4F92" stop-opacity="0.65"/>
+    <linearGradient id="waveFade2" x1="0" y1="276" x2="0" y2="326" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3D4F92" stop-opacity="0.6"/>
       <stop offset="1" stop-color="#3D4F92" stop-opacity="0"/>
     </linearGradient>
     <linearGradient id="waveFade3" x1="0" y1="294" x2="0" y2="324" gradientUnits="userSpaceOnUse">
@@ -114,12 +114,13 @@
     <text class="subtitle" x="72" y="165">PRODUCT DEVELOPER</text>
   </g>
 
-  <!-- trailing waves, fading downward -->
-  <path class="waveShift2" fill="url(#waveFade1)" d="M-500 283
-    Q-437.5 265 -375 283 T-250 283 T-125 283 T0 283 T125 283 T250 283 T375 283 T500 283 T625 283 T750 283 T875 283 T1000 283 T1125 283 T1250 283 T1375 283 T1500 283
+  <!-- water body: same phase/speed as the sky edge, tucked right under it (no gap) -->
+  <path class="waveShift" fill="url(#waveFade1)" d="M-500 244
+    Q-437.5 224 -375 244 T-250 244 T-125 244 T0 244 T125 244 T250 244 T375 244 T500 244 T625 244 T750 244 T875 244 T1000 244 T1125 244 T1250 244 T1375 244 T1500 244
     V330 H-500 Z"/>
-  <path class="waveShift3" fill="url(#waveFade2)" d="M-500 298
-    Q-437.5 282 -375 298 T-250 298 T-125 298 T0 298 T125 298 T250 298 T375 298 T500 298 T625 298 T750 298 T875 298 T1000 298 T1125 298 T1250 298 T1375 298 T1500 298
+  <!-- deeper wave crests, visible against the water body -->
+  <path class="waveShift3" fill="url(#waveFade2)" d="M-500 292
+    Q-437.5 276 -375 292 T-250 292 T-125 292 T0 292 T125 292 T250 292 T375 292 T500 292 T625 292 T750 292 T875 292 T1000 292 T1125 292 T1250 292 T1375 292 T1500 292
     V330 H-500 Z"/>
   <path class="waveShift4" fill="url(#waveFade3)" d="M-500 308
     Q-437.5 322 -375 308 T-250 308 T-125 308 T0 308 T125 308 T250 308 T375 308 T500 308 T625 308 T750 308 T875 308 T1000 308 T1125 308 T1250 308 T1375 308 T1500 308
