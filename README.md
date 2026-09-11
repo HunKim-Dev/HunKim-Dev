@@ -67,6 +67,9 @@ React와 Next.js 기반 웹 서비스를 중심으로 개발하고 있고, 3D �
 
 #### 2026
 
+#### **[Wiki 레포지토리](https://github.com/HunKim-Dev/Wiki)** `2026.09 ~ 진행 중`
+- Karpathy의 LLM Wiki 컨셉을 Claude Code에 구현한 에이전트 — 프로젝트별 마크다운 위키를 매 프롬프트에 자동 주입하고, `[[wiki-link]]` 인용을 hook으로 검증해 환각과 지식 휘발을 막습니다
+
 #### **[댕로드 레포지토리](https://github.com/After-Daeng-Road/After-Daeng-Road)** `2026.04 ~ 진행 중`
 - 한국관광콘텐츠랩 공모 본선 프러덕트 — 퇴근 후 반려견과 다녀올 수 있는 한적한 근교 외출지를 시간 기준으로 추천하는 서비스 (팀 프로젝트)
 
