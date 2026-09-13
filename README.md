@@ -68,6 +68,9 @@
 
 #### 2026
 
+#### **[Low-Floor-Bus-AI 레포지토리](https://github.com/HunKim-Dev/Low-Floor-Bus-AI)** `2026.09 ~ 진행 중`
+- 원티드 AI 해커톤 제출작 — 이동 속도와 준비 시간을 고려해 저상버스 도착 정보와 출발 시각을 안내하는 AI 이동 도우미
+
 #### **[Wiki 레포지토리](https://github.com/HunKim-Dev/Wiki)** `2026.04 ~ 개선 중`
 - Karpathy의 LLM Wiki 컨셉을 Claude Code에 구현한 에이전트 — 프로젝트별 마크다운 위키를 매 프롬프트에 자동 주입하고, `[[wiki-link]]` 인용을 hook으로 검증해 환각과 지식 휘발을 막습니다
 
